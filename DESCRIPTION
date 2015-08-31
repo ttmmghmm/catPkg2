@@ -6,4 +6,13 @@ Date: 2015-08-30
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: More about what it does (maybe more than one line)
-License: What license is it under?
+License: MIT
+Imports: stringr,
+    Rcpp,
+    RcppArmadillo,
+    BH
+Depends: R (>= 3.0.1)
+LinkingTo: 
+  Rcpp, 
+  RcppArmadillo,
+  BH
